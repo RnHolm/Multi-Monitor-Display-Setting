@@ -31,7 +31,6 @@ Partial Class Form1
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.ButtonTest = New System.Windows.Forms.Button()
         Me.BackgroundWorker1 = New System.ComponentModel.BackgroundWorker()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -58,7 +57,7 @@ Partial Class Form1
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(12, 12)
+        Me.TextBox1.Location = New System.Drawing.Point(90, 29)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(338, 20)
         Me.TextBox1.TabIndex = 2
@@ -113,21 +112,11 @@ Partial Class Form1
         Me.Label2.Text = "Duplicate display makes one monitor" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "show exactly what the other monitor is doing" &
     ""
         '
-        'ButtonTest
-        '
-        Me.ButtonTest.Location = New System.Drawing.Point(221, 53)
-        Me.ButtonTest.Name = "ButtonTest"
-        Me.ButtonTest.Size = New System.Drawing.Size(75, 23)
-        Me.ButtonTest.TabIndex = 8
-        Me.ButtonTest.Text = "Button1"
-        Me.ButtonTest.UseVisualStyleBackColor = True
-        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(527, 284)
-        Me.Controls.Add(Me.ButtonTest)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox3)
@@ -154,6 +143,5 @@ Partial Class Form1
     Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
-    Friend WithEvents ButtonTest As Button
     Friend WithEvents BackgroundWorker1 As System.ComponentModel.BackgroundWorker
 End Class
