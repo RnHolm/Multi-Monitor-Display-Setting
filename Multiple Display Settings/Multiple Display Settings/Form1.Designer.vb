@@ -57,9 +57,11 @@ Partial Class Form1
         '
         'TextBox1
         '
+        Me.TextBox1.BackColor = System.Drawing.SystemColors.Control
+        Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox1.Location = New System.Drawing.Point(90, 29)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(338, 20)
+        Me.TextBox1.Size = New System.Drawing.Size(338, 13)
         Me.TextBox1.TabIndex = 2
         Me.TextBox1.Text = "Please select a setting that you would want your display to change to"
         '
